@@ -3,25 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Landing page sobre desarrollo web">
-    <title>El Camino Hacia el Desarrollo Web</title>
+    <meta name="description" content="Mi journey aprendiendo desarrollo web con HTML y CSS">
+    <title>Rafael Dev - Mi Journey en Programación</title>
     <link rel="stylesheet" href="./CSS/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 </head>
 <body>
     <main>
-        <div class="contenedor">
-            <div class="textos">
-                <h1 class="titulo">El Camino Hacia el Desarrollo Web</h1>
-                <p class="subtitulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta asperiores, aliquid corporis tempore sint hic maiores omnis odit repudiandae. Excepturi fugiat saepe sit aliquam a quibusdam cum necessitatibus distinctio libero?</p>
-                <button><a href="./login.html">VER MÁS</a></button>
+        <section class="hero">
+            <div class="contenedor">
+                <div class="textos">
+                    <div class="greeting">
+                        <span class="wave">👋</span>
+                        <h1 class="titulo">¡Hola! Soy <span class="highlight">Rafael</span></h1>
+                    </div>
+                    
+                    <h2 class="subtitulo">Estudiante apasionado por el desarrollo web</h2>
+                    
+                    <p class="descripcion">
+                        Este es mi mini proyecto donde estoy aprendiendo a crear páginas web 
+                        con HTML y CSS. Cada línea de código es una nueva aventura hacia 
+                        convertirme en desarrollador web profesional.
+                    </p>
+                    
+                    <div class="tecnologias-section">
+                        <h3 class="tech-title">Tecnologías usadas:</h3>
+                        <div class="tecnologias-aprendiendo">
+                            <div class="tech-badge html">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="tech-badge css">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <blockquote class="motivacion">
+                        <i class="fas fa-quote-left"></i>
+                        "Cada etiqueta HTML y cada propiedad CSS que aprendo 
+                        me acerca más a mi sueño de ser desarrollador"
+                        <i class="fas fa-quote-right"></i>
+                    </blockquote>
+
+                    <div class="cta-buttons">
+                        <button class="btn-primary">
+                            <a href="./login.html">
+                                <i class="fas fa-rocket"></i>
+                                Inicie Sesión
+                            </a>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="imagen">
+                    <div class="image-container">
+                        <img src="IMG/undraw_Code_review_re_woeb.svg" alt="Desarrollador programando con pasión" width="500" height="400">
+                    </div>
+                </div>
             </div>
-            <div class="imagen">
-                <img src="IMG/undraw_Code_review_re_woeb.svg">
-            </div>
-        </div>
+        </section>
     </main>
 </body>
 </html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #1a73e8, #6c5ce7);
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro-container {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.title {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.registro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.registro-form input {
+    height: 45px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.registro-form input:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+.btn-registro {
+    background-color: #1a73e8;
+    color: white;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-registro:hover {
+    background-color: #1557b0;
+}
+
+.links {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.links a {
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.social-section {
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    padding-top: 25px;
+}
+
+.social-section p {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.social-buttons button {
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.social-buttons button:hover {
+    transform: scale(1.1);
+}
+
+.google {
+    background-color: #ea4335;
+}
+
+.facebook {
+    background-color: #3b5998;
+}
+
+.twitter {
+    background-color: #1da1f2;
+}
+
+@media (max-width: 480px) {
+    .registro-container {
+        padding: 30px 20px;
+    }
+    
+    .title {
+        font-size: 20px;
+    }
+}
